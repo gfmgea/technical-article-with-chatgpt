@@ -1,0 +1,47 @@
+Prompt 1
+
+Crie 10 headlines para o assunto: Serial no Arduino
+
+Descrição do assunto a ser comentado no artigo:
+Usada para comunicação entre uma placa Arduino e um computador ou outros dispositivos. Todas as placas Arduino possuem pelo menos uma porta serial (também conhecida como UART ou USART), enquanto alguns possuem várias.
+
+============================================================================================================================================================
+
+Prompt 2
+
+Comporte-se como um escritor de artigos tech Arduino e escreva o artigo atendendo as regras abaixo:
+
+Regras: 
+> No máximo 10 linhas sobre o que é a comunicação serial
+> Me explique de maneira informal, como se eu fosse uma criança de 10 anos
+> Os blocos que serão criados são: 
+O que é a comunicação serial no Arduino
+Dê exemplos de funções que utilizam a comunicação serial
+Cite exemplos com códigos que utilizam da comunicação serial
+Faça um call to action para minhas redes sociais
+Coloque 3 hashtags que façam sentido
+
+> Siga com base o conteúdo abaixo: 
+Usada para comunicação entre uma placa Arduino e um computador ou outros dispositivos. Todas as placas Arduino possuem pelo menos uma porta serial (também conhecida como UART ou USART), enquanto alguns possuem várias. 
+
+No Uno, Nano, Mini, e Mega, pinos 0 e 1 são usados para comunicação com o computador. Conectar qualquer coisa a esses pinos pode interferir nessa comunicação, incluindo causar falhas na gravação da placa.
+
+Você pode usar o monitor serial integrado na IDE do Arduino para comunicar-se com uma placa Arduino. Clique no botão do monitor serial (lupa) na barra de ferramentas e escolha a mesma taxa de tranmissão usada na chamada de begin().
+
+Você pode usar o monitor serial presente na IDE do Arduino para se comunicar com uma placa Arduino. Clique no botão do monitor serial na barra de ferramentas e escolha e usar a mesma taxa de transferência (baud rate) usada na chamada de begin().
+
+Comunicação serial nos pinos TX/RX usa níveis lógicos TTL (5V ou 3.3V dependendo da placa). Não conecte esses pinos diretamente um uma porta serial RS232; esses operam em +/- 12V e podem danificar sua placa Arduino.
+
+Para usar esses pinos para comunicar com seu computador pessoal, você vai precisar de um adaptador USB-serial extra, pois esses pinos não são conectados ao adaptador USB-serial do Arduino Mega. para usá-los para comunicar com um dispositivo serial TTL externo, conecte o pino TX do Arduino ao pino RX do dispositivo, o pino RX ao pino TX do dispositivo, e o ground de seu Mega ao ground do dispositivo.
+
+============================================================================================================================================================
+
+Prompt 3
+
+Adicione uma conclusão antes do call to action
+
+============================================================================================================================================================
+
+Prompt 4 
+
+Faça uma introdução também
